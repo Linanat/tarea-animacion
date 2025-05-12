@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../imgs/fondo-2.jpg');
+    background-size: cover;      
+    background-repeat: no-repeat;   
+    background-position: center; 
+}
+
+#imagenes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-1, .box-2 {
+    text-align: center;
+}
+
+p {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: none; 
+}
